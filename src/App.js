@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Chrono } from "react-chrono";
-import timelines from "./timeline.json";
+import timelines from "./timelines.json";
 import "./App.css";
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
   return (
     <>
       <div className="header">
-        <h1 style={{ textAlign: "center" }}>{timeline.title}</h1>
         <select onChange={handleChangeTimeline}>
           {timelines.map((timeline, index) => (
             <option key={index} value={index}>
@@ -28,7 +27,7 @@ function App() {
         </select>
       </div>
       <div key={timeline.title}>
-        <Chrono items={timeline.events} mediaHeight={300} mode="HORIZONTAL" />
+        <Chrono items={timeline.events} mediaHeight={300} mode="VERTICAL_ALTERNATING" disableToolbar={true} slideShow={true}  cardHeight={200} />
       </div>
     </>
   );
