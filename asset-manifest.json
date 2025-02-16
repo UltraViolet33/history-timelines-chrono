@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/history-timelines/static/css/main.fc19874c.css",
-    "main.js": "/history-timelines/static/js/main.9eb66682.js",
+    "main.css": "/history-timelines/static/css/main.360ad53f.css",
+    "main.js": "/history-timelines/static/js/main.43158163.js",
     "index.html": "/history-timelines/index.html",
-    "main.fc19874c.css.map": "/history-timelines/static/css/main.fc19874c.css.map",
-    "main.9eb66682.js.map": "/history-timelines/static/js/main.9eb66682.js.map"
+    "main.360ad53f.css.map": "/history-timelines/static/css/main.360ad53f.css.map",
+    "main.43158163.js.map": "/history-timelines/static/js/main.43158163.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc19874c.css",
-    "static/js/main.9eb66682.js"
+    "static/css/main.360ad53f.css",
+    "static/js/main.43158163.js"
   ]
 }
